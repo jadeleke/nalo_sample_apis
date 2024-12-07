@@ -34,8 +34,8 @@ cd email-payment-api-client
 pip install -r requirements.txt
 ````
 
-## Usage
-## Sending Emails
+### Usage
+### Sending Emails
 Update the Python script to include your API key and correct file path for attachments.
 
 Use the following Python code to send an email:
