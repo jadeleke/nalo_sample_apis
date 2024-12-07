@@ -71,6 +71,7 @@ print(response.text)
 ````
 
 
+
 3. Replace the following values in the script:
 
 your_key_here: Your API key from Nalo Solutions.
@@ -78,7 +79,7 @@ your_key_here: Your API key from Nalo Solutions.
 /path/to/document.pdf: Path to the file you want to attach.
 
 
-### Upcoming Payment API Features
+## Upcoming Payment API Features
 
 The Payment API will support the following functionality:
 
