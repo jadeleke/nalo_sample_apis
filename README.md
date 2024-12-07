@@ -71,17 +71,23 @@ print(response.text)
 3. Replace the following values in the script:
 
 your_key_here: Your API key from Nalo Solutions.
+
 /path/to/document.pdf: Path to the file you want to attach.
 
 
 Upcoming Payment API Features
 
 The Payment API will support the following functionality:
+
 Initiate Payments: Programmatically process payments.
+
 Transaction Status: Query payment status for ongoing or completed transactions.
+
 Stay tuned for updates to this repository.
 
+
 Support
+
 For questions or support, please contact noc@nalosolutions.com.
 
 ```bash
