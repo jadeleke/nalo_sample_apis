@@ -34,8 +34,8 @@ cd email-payment-api-client
 pip install -r requirements.txt
 ````
 
-### Usage
-Sending Emails
+## Usage
+## Sending Emails
 Update the Python script to include your API key and correct file path for attachments.
 
 Use the following Python code to send an email:
@@ -78,7 +78,7 @@ your_key_here: Your API key from Nalo Solutions.
 /path/to/document.pdf: Path to the file you want to attach.
 
 
-Upcoming Payment API Features
+### Upcoming Payment API Features
 
 The Payment API will support the following functionality:
 
