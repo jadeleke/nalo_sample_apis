@@ -29,14 +29,15 @@ Clone this repository and install the required dependencies:
 git clone https://github.com/jadeleke/nalo_sample_apis.git
 cd email-payment-api-client
 pip install -r requirements.txt
-Usage
+````
+
+### Usage
 Sending Emails
 Update the Python script to include your API key and correct file path for attachments.
 
 Use the following Python code to send an email:
 
-python
-Copy code
+```bash
 import requests
 
 url = "http://email.nalosolutions.com/smsbackend/clientapi/Nal_resl/send-email/"
@@ -64,13 +65,18 @@ headers = {}
 response = requests.request("POST", url, headers=headers, data=payload, files=files)
 
 print(response.text)
-Replace the following values in the script:
+````
+
+
+3. Replace the following values in the script:
 
 your_key_here: Your API key from Nalo Solutions.
 /path/to/document.pdf: Path to the file you want to attach.
-Upcoming Payment API Features
-The Payment API will support the following functionality:
 
+
+Upcoming Payment API Features
+
+The Payment API will support the following functionality:
 Initiate Payments: Programmatically process payments.
 Transaction Status: Query payment status for ongoing or completed transactions.
 Stay tuned for updates to this repository.
@@ -78,8 +84,7 @@ Stay tuned for updates to this repository.
 Support
 For questions or support, please contact noc@nalosolutions.com.
 
-markdown
-Copy 
+```bash
 
 ### Key Sections
 1. **Email API**:
@@ -91,6 +96,7 @@ Copy
 
 **a.** Would you like me to expand on the Payment API section with example placeholders?  
 **b.** Should I include a troubleshooting section in the README?
+````
 
 
 
