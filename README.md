@@ -11,6 +11,9 @@ This repository provides a Python implementation for interacting with the **Nalo
 - **File Attachments**: Attach files to the emails.
 - **Customizable Sender and Recipient**: Specify sender email, recipient email(s), and sender name.
 
+
+
+
 ### Payment API (Coming Soon)
 - Details for the Payment API will be provided soon, including integration for initiating, tracking, and managing payments.
 
@@ -85,9 +88,7 @@ Transaction Status: Query payment status for ongoing or completed transactions.
 
 Stay tuned for updates to this repository.
 
-
-Support
-
+### Support
 For questions or support, please contact noc@nalosolutions.com.
 
 ```bash
